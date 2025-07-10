@@ -56,3 +56,10 @@ def generate_graph_with_min_degree(n_nodes=100, min_degree=4, max_weight=10, typ
     add_random_weights(G, max_weight)
 
     return G
+
+def create_graph_dataset(count=5, sizes=[50, 100, 200, 300, 400], min_degree=4,seed = seed,type_graph = 'regular',p = 0.1):
+    graphs = []
+    for i, n in enumerate(sizes):
+        G = generate_graph_with_min_degree(n_nodes=n, min_degree=min_degree,type_graph=type_graph,p=p)
+        graphs.append(G)
+    return graphs
