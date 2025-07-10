@@ -5,4 +5,5 @@
 * Abordagem: Algoritmica
 * Tema: Encontrar K-arvores geradoras minimas em um grafo conexo
 * Artigo de Referencia: A Note on Finding Minimum-Cost Edge-Disjoint Spanning Trees
-  * Link ===> https://pubsonline.informs.org/doi/abs/10.1287/moor.10.4.701 
+  * Link ===> https://pubsonline.informs.org/doi/abs/10.1287/moor.10.4.701
+* Codigo usado para rodar os testes ---> test_code.py
