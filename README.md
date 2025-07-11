@@ -8,4 +8,6 @@
   * Link ===> https://pubsonline.informs.org/doi/abs/10.1287/moor.10.4.701
 * Codigo usado para rodar os testes (tambem possui as implementacoes dos algoritmos de Roskind-Tarjan e Kruskal ---> Grafos_Test_Code.ipynb
 ___
-Para rodar os testes, basta baixar o "Grafos_Test_Code.ipynb" e o "dataset-grafos-trab-final.pkl" para um mesmo diretorio e executar o codigo (a celula com run dataset pode ser modificada para escolher o algoritmo e o k desejado)
+Para rodar os testes, basta baixar o "Grafos_Test_Code.ipynb" e o "dataset-grafos-trab-final.pkl" para um mesmo diretorio e executar o codigo: 
+* A parte com test code pode ser modificada para escolher o algoritmo e o k desejado
+* utilize  a funcionalidade *%timeit* (-r para passar o numero de repeticoes, -n para passar numero de loops) na linha onde for testar o tempo de execucao (por default deixamos no run_dataset
